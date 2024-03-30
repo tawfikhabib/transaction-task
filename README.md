@@ -1,5 +1,5 @@
 ## Transaction Application
-This is an application that serves as accepting payment and store transaction auditing. For this, we have 3 APIs. First API will provide mock response, the second API will store transaction data and third API will be a callback API for updating specific transactions.
+This is an application that serves as accepting payment and store transaction auditing. Application is built with Laravel 8 (as backend) and Vue 2 (as frontend). For this, we have 3 APIs. First API will provide mock response, the second API will store transaction data and third API will be a callback API for updating specific transactions.
 
 ## Installation
 1. Clone the repo
@@ -10,7 +10,7 @@ git clone https://github.com/tawfikhabib/transaction-task.git
 2. Run below commands
 ```sh
 composer install
-npm run install
+npm install
 ```
 
 3. Create .env file
