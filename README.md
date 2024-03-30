@@ -48,3 +48,4 @@ php artisan serve
 ```sh
 php artisan test
 ```
+Change test cases accordingly in /tests/Feature files to change and rerun the test.
