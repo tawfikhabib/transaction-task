@@ -17,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/transactions', [\App\Http\Controllers\TransactionController::class, 'index']);
+Route::get('/mock-response', [\App\Http\Controllers\TransactionController::class, 'getMockResponse']);
+Route::post('/payment', [\App\Http\Controllers\TransactionController::class, 'create']);
+Route::put('/update-transaction', [\App\Http\Controllers\TransactionController::class, 'update']);
+
